@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #6d1dfc;
+  color: white;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.content {
+  min-height: 90vh;
+  height: fit-content;
+  display: flex;
+  background-color: #efddff;
+}
+.pub-section {
+  flex: 1;
+  background-color: #fff;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 86vh;
+  border-radius: 4px;
+}
+.blog {
+  flex: 4;
+  display: flex;
+  margin: 8px;
+  flex-direction: column;
+}
+.article {
+  margin: 20px 10px;
+  padding: 20px;
+  box-shadow: 9px 7px 22px -8px rgba(110, 110, 110, 1);
+  border-radius: 4px;
+  background-color: white;
+}
+.article-title {
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.article-body {
+  font-weight: 400;
+  font-size: 18px;
+}
